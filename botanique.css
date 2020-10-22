@@ -943,7 +943,11 @@ transition: transform linear 3s;
 /* _______________________________________________________________ jardins partagés _____________________________________________________________________ */
 
 
-
+#les_jardins_partages{
+  background-color: #365938;
+  height: 100%;
+  width: 100%;
+}
 
 
 
