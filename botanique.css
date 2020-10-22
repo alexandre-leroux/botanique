@@ -1461,6 +1461,26 @@ transition: transform linear 3s;
 
 
 
+#ville_vegetale{
+  background-image: url(media/ville_vegetale2.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+#ville_vegetale h1{
+font-size: 20vh;
+text-align: center;
+color: #77ad80;
+text-shadow: 5px 5px 5px black;
+padding: 5%;
+
+
+}
 
 
 
@@ -1468,6 +1488,84 @@ transition: transform linear 3s;
 
 
 
+
+#veget_urbain_pourquoi{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(103, 119, 104);
+  background-image: url(media/backgroung-ville-vegetale.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+#veget_urbain_pourquoi_articles{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+#veget_urbain_pourquoi_gauche{
+  width: 50%;
+  padding: 2vh;
+
+}
+#veget_urbain_pourquoi_gauche h1{
+  font-size: 5vh;
+  margin: 3vh;
+  color: #62b16f;
+  text-shadow: 3px 5px 2px rgb(0, 0, 0);
+}
+#veget_urbain_pourquoi_gauche h2{
+  font-size: 3.5vh;
+  margin: 3vh;
+  color: #62b16f;
+}
+#veget_urbain_pourquoi_gauche p{
+  font-size: 2.8vh;
+  margin: 3vh;
+  color: white;
+}
+
+
+
+
+#veget_urbain_pourquoi_droite{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    width: 50%;
+    padding: 3vh;
+  
+  }
+  
+
+#veget_urbain_pourquoi_droite img{
+  text-align: center;
+  height: auto;
+  width: 80%;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
+}
+
+#veget_urbain_pourquoi_droite h3{
+  font-size: 3vh;
+  color: #62b16f;
+  margin-bottom: 5vh;
+}
+
+#veget_urbain_pourquoi_droite p{
+  font-size: 1.8vh;
+  color: #62b16f;
+  margin-bottom: 5vh;
+  color: white;
+  width: 70%;
+  text-align: justify;
+}
 
 
 
