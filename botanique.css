@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
 *{
 padding: 0px;
@@ -697,95 +698,125 @@ transition: transform linear 3s;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* _______________________________________________________________ potager urbain _____________________________________________________________________ */
 
+#urban_background {
+  background: linear-gradient(#F2E9C2 80%, white);
+}
 
 
+#urban_page_title {
+  padding-top: 5%;
+  text-align: center;
+  font-size: 6vh;
+  font-family: 'Libre Baskerville', serif;  
+  color: #365938;
+}
+
+#urban_titre_petit {
+  font-size: 50%;
+}
+
+#how_to_banner {
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+#how_to_img {
+  width: 50%;
+}
+
+#how_to_img img {
+  width: 100%;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+
+.bloc {
+  display: flex;
+  justify-content: center;
+}
 
 
+.bloc_step h2 {
+  text-align: center;
+  font-size: 5vh;
+  font-family: 'Libre Baskerville', serif;
+  color:#365938;
+  opacity: 0.8;
+  padding: 5%;
+}
 
 
+#title_step_5 {
+  font-family: 'Dancing Script', cursive;
+  padding-bottom: 1%;
+}
 
+.core_step {
+  text-align: justify;
+}
 
+.core_step a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
 
+.core_step a:hover {
+  color: green;
+}
 
+.step_img_text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+  margin: auto;
+}
 
+#step2_img_text {
+  flex-direction: row-reverse;
+}
 
+#step4_img_text {
+  flex-direction: row-reverse;
+}
 
+#step5_img_text {
+  flex-direction: column-reverse;
+  align-items: center;
+}
 
+#step5_img_text img {
+  width: 60%;
+  margin-top: 5%;
+}
 
+#step5_img_text h3 {
+  width: 100%;
+  font-family: 'Dancing Script', cursive;
+}
 
+.step_img_text img {
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-radius: 50px;
+}
 
+.step_img_text h3 {
+  width: 50%;
+  font-family: 'Whitney Medium';
+  font-size: 2.9vh;
+  color:#365938;
+  opacity: 0.8;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.surligné_vert {
+  color: yellowgreen;
+}
 
 
 
