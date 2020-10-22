@@ -1470,16 +1470,16 @@ transition: transform linear 3s;
   width: 100%;
   display: flex;
   align-items: center;
+  
 }
 
 #ville_vegetale h1{
-font-size: 20vh;
+font-size: 18vh;
 text-align: center;
 color: #77ad80;
 text-shadow: 5px 5px 5px black;
 padding: 5%;
-
-
+font-family: 'Libre Baskerville', serif;
 }
 
 
@@ -1498,9 +1498,6 @@ padding: 5%;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-
-
-
 }
 
 #veget_urbain_pourquoi_articles{
@@ -1519,14 +1516,17 @@ padding: 5%;
   margin: 3vh;
   color: #62b16f;
   text-shadow: 3px 5px 2px rgb(0, 0, 0);
+  font-family: 'Libre Baskerville', serif;
 }
 #veget_urbain_pourquoi_gauche h2{
   font-size: 3.5vh;
   margin: 3vh;
   color: #62b16f;
+  text-shadow: 1px 3px 2px rgb(0, 0, 0);
+  font-family: 'Libre Baskerville', serif;
 }
 #veget_urbain_pourquoi_gauche p{
-  font-size: 2.8vh;
+  font-size: 2.6vh;
   margin: 3vh;
   color: white;
 }
@@ -1549,13 +1549,15 @@ padding: 5%;
   height: auto;
   width: 80%;
   margin-top: 3vh;
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
 }
 
 #veget_urbain_pourquoi_droite h3{
   font-size: 3vh;
   color: #62b16f;
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
+  text-shadow: 1px 2px 2px rgb(0, 0, 0);
+  font-family: 'Libre Baskerville', serif;
 }
 
 #veget_urbain_pourquoi_droite p{
@@ -1568,15 +1570,77 @@ padding: 5%;
 }
 
 
+/* _______________projets___________________________________________ */
 
 
+#veget_urbaine_projets{
+  background-image: url(media/projet-ville-vegetale.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+#veget_urbaine_projets h1{
+font-size: 15vh;
+color: #a5c7ab;
+text-shadow: 8px 8px 8px rgb(0, 0, 0);
+text-align: center;
+font-family: 'Libre Baskerville', serif;
+}
+#veget_urbaine_projets a{
+  text-decoration: none;
+}
 
+/* __________________ vegetalisation urbaine stats ________________________________ */
 
+#veget_urbaine_chiffres{
+  height: 100%;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(media/stats.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 
+}
+#veget_urbaine_chiffres h1{
+  font-size: 6vh;
+  text-align: center;
+  width: 70%;
+  margin: 5vh;
+  color: #a5c7ab;
+text-shadow: 8px 8px 8px rgb(0, 0, 0);
+font-family: 'Libre Baskerville', serif;
+}
+#veget_urbaine_chiffres h2{
+  font-size: 2vh;
+  text-align: justify;
+  width: 50%;
+  margin: 2vh;
+  color: #d4d4d4;
+font-family: 'Libre Baskerville', serif;
+}
+#veget_urbaine_chiffres img{
+  width: 50%;
+  height: auto;
+}
 
-
-
+#veget_urbaine_chiffres p{
+  font-size: 1.8vh;
+  text-align: justify;
+  width: 60%;
+  margin: 2vh;
+  color: #d4d4d4;
+font-family: 'Libre Baskerville', serif;
+margin-bottom: 5vh;
+}
 
 
 
