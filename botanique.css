@@ -12,7 +12,9 @@
 padding: 0px;
 margin: 0px;
 }
-
+::-webkit-scrollbar{
+  display: none;
+}
 
 html, body {
   margin: 0;
@@ -244,7 +246,7 @@ height: 50vh;
 position: absolute;
 z-index: 2;
 text-align: center;
-
+font-family: 'Caveat Brush', cursive;
 }
 
 #titre_jardins_paratges_presentation{
@@ -258,6 +260,10 @@ width: 50%;
 padding-top: 3%;
 padding-bottom: 3%;
 font-size: 1.5em;
+font-family: 'Caveat Brush', cursive;
+}
+#texte_jardins_paratges_presentation p{
+  font-family: 'Caveat Brush', cursive;
 }
 #logo_jardin_partagés_lien img{
 width: 40%;
@@ -944,6 +950,7 @@ transition: transform linear 3s;
   background-color: #1d331f;
   background-image: url(media/3-Rubber-BG.png);
   background-attachment: fixed;
+  font-family: 'Caveat Brush', cursive;
 }
 /* ____________ titres _____________________ */
 #les_jardins_partages{
@@ -980,13 +987,14 @@ transition: transform linear 3s;
 
 .jardin_partages_textes_et_photos_img_droite h2, .jardin_partages_textes_et_photos_img_gauche h2{
   color: #62B16F;
-  font-size: 3vh;
+  font-size: 4vh;
 }
 
 .jardin_partages_textes_et_photos_img_droite{
   display: flex;
   width: 80%;
   margin-top: 10vh;
+  font-family: 'Caveat Brush', cursive;
 }
 .jardin_partages_textes_et_photos_img_droite img{
   width: 100%;
@@ -998,10 +1006,12 @@ transition: transform linear 3s;
   flex-direction: column;
   justify-content: space-around;
   padding-right: 6vw;
+  font-family: 'Caveat Brush', cursive;
 }
 
 .jardin_partages_textes_et_lien_img_droite p{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 3vh;
 }
 .jardin_partages_textes_et_lien_img_droite a{
   display: flex;
@@ -1056,7 +1066,8 @@ transition: transform linear 3s;
 }
 
 .jardin_partages_textes_et_lien_img_gauche p{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Caveat Brush', cursive;
+  font-size: 3vh;
 }
 .jardin_partages_textes_et_lien_img_gauche a{
   display: flex;
