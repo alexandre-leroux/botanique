@@ -6,8 +6,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
-
-
 *{
 padding: 0px;
 margin: 0px;
@@ -15,7 +13,6 @@ margin: 0px;
 ::-webkit-scrollbar{
   display: none;
 }
-
 html, body {
   margin: 0;
   padding: 0;
@@ -23,11 +20,7 @@ html, body {
   height: 100%;
   scroll-behavior: smooth;
 }
-
-
 /* ---------------------------------------header-------------------------------------- */
-
-
 #mySidenav a {
 z-index: 1;
 position: fixed;
@@ -37,15 +30,12 @@ text-decoration: none;
 color: rgb(43, 43, 43); mix-blend-mode:multiply ;
 font-family: 'Kaushan Script', cursive;
 }
-
 #mySidenav a:hover {
 left: 0;
 }
-
 #mySidenav img{
 height:80px;
 }
-
 #navigation_accueil{
 top: 20px;
 display: flex;
@@ -76,7 +66,6 @@ display: flex;
 align-items: center;
 left: -518px;
 }
-
 #navigation_vegetalisation_urbaine{
 top: 420px;
 display: flex;
@@ -84,8 +73,6 @@ align-items: center;
 left: -638px;
 }
   /* -----------------------------------------------section page de présentation------------------------------------------------ */
-
-
 #page_presentation{
 display: flex;
 flex-direction: column;
@@ -94,7 +81,6 @@ align-items: center;
 width: 100%;
 background-color: #62B16F;
 height: 100vh;
-
 }
 #page_presentation h1{
 color: rgb(247, 247, 247);
@@ -104,23 +90,17 @@ text-align: center;
 width: 80%;
 margin-top: 4vh;
 font-family: 'Krona One', sans-serif;
-
 /* background-color: brown; */
 }
-
 #page_presentation_div_plantes_et_liens{
 display: flex;
 align-items: center;
 margin-bottom: 6vh;
-
 /* background-color: coral; */
 }
 #page_presentation_div_plantes_et_liens img{
 height: 50vh;
 }
-
-
-
 #page_presentation_liens{
 display: flex;
 flex-direction: column;
@@ -138,17 +118,7 @@ color: #204325;
 color: aliceblue;
 transition: 0.3s;
 }
-
-
-
-
 /* _________________________________________potager urbain presentation_____________________________________________ */
-
-
-
-
-
-
 #potager_urbain_presentation{
 width: 100%;
 background-color: #F2E9C2;
@@ -163,11 +133,9 @@ font-family: 'Libre Baskerville', serif;
 #potager_urbain_presentation_mini_titre{
 margin-top: 3%;
 }
-
 #potager_urbain_presentation H1{
 font-size: 6em;
 font-family: 'Libre Baskerville', serif;
-
 }
 #potager_urbain_presentation H2{
 font-size: 3em;
@@ -182,7 +150,6 @@ flex-direction: column;
 align-items: center;
 text-align: center;
 margin-bottom: 2%;
-
 }
 #potager_urbain_div_champignon a{
 width: 30%;
@@ -195,30 +162,17 @@ transition: 0.5s;
 transform: rotate(20deg);
 transition: 0.5s;
 }
-
 #potager_urbain_div_champignon img{
 height: 100%;
 width: 100%;
-
 }  
-
-
 #lien_champignon, #mangez_moi{
 display: block;
 margin-bottom: 5%;
 width: 10%;
 }
 /* ___________________________fin_____________________________ */
-
-
-
-
 /* __________________________________________________jardin partagés présentation___________________________________________ */
-
-
-
-
-
 #jardins_partages_presentation{
 width: 100%;
 height: 100vh;
@@ -234,7 +188,6 @@ font-family: 'Caveat Brush', cursive;
 height:100%;
 position: absolute;
 }
-
 #titre_et_texte_jardin_partages{
 display: flex;
 flex-direction: column;
@@ -248,7 +201,6 @@ z-index: 2;
 text-align: center;
 font-family: 'Caveat Brush', cursive;
 }
-
 #titre_jardins_paratges_presentation{
 font-size: 6em;
 padding-top: 3%;
@@ -270,17 +222,12 @@ width: 40%;
 }
 #logo_jardin_partagés_lien:hover{
 transform: scale(1.2);
-
 }
 #logo_jardin_partagés_lien{
 transition: 0.3s;
 }
 /* ___________________________fin_____________________________ */
-
-
 /* __________________________________________________________plantes méditéranéennes_________________________________________________ */
-
-
 #presentation_plantes_mediteranee{
 width: 100%;
 height: 100vh;
@@ -303,7 +250,6 @@ align-items: center;
 }
 #presentation_plantes_mediterannee_article a{
 margin-top: 3%;
-
 }
 #presentation_plantes_mediterannee_article a img{
 opacity: 0;
@@ -312,11 +258,8 @@ transition: 0.5s;
 #presentation_plantes_mediterannee_article a img:hover{
 opacity: 1;
 }
-
-
 #presentation_plantes_mediterannee_article a{
 background-image: url(media/Monolovier-2.png);
-
 }
 #presentation_plantes_mediterannee_article h1{
 font-size: 5em;
@@ -333,12 +276,7 @@ padding-left: 5%;
 text-align: justify;
 }
 /* ___________________________fin_____________________________ */
-
-
-
-
 /* __________________________________________________________ végétalisation urbaine_________________________________________________ */
-
 #presentation_vetetalisation_urbaine{
 width: 100%;
 height: 100vh;
@@ -346,18 +284,13 @@ display: flex;
 }
 #presentation_vetetalisation_urbaine{
 animation: colorchange 60s linear 1s infinite; 
-
 }
-
 @keyframes colorchange
 {
 0%   {background: rgb(80, 160, 87); color: rgb(157, 170, 170);}
 50%  {background: rgb(55, 28, 28); color: rgb(80, 160, 87);}
-
 100% {background: rgb(100, 141, 100); color: rgb(55, 107, 59);}
 }
-
-
 #presentation_vetetalisation_urbaine_textes{
 max-height: 100vh;
 width: 50vw;
@@ -365,7 +298,6 @@ color: #62b16f;
 display: flex;
 flex-direction: column;
 justify-content: space-between;
-
 }
 #presentation_vetetalisation_urbaine_textes h1{
 font-size: 5em;
@@ -386,41 +318,25 @@ text-align: center;
 width: 100%;
 padding-bottom: 5%;
 }
-
-
 #presentation_vetetalisation_urbaine_textes a img{
 height:100px;
 transition: 0.3s;
-
 }
 #presentation_vetetalisation_urbaine_textes a img:hover{
 height:100px;
 transform: rotate(360deg);
-
 }
-
 #presentation_vetetalisation_urbaine_grand_image{
 height: 100vh;
 width: 50vw;
 }
-
 #presentation_vetetalisation_urbaine_grand_image img{
-
 height: 100%;
 width: 100%;
 object-fit: fill;
 }
-
 /* ___________________________fin_____________________________ */
-
-
-
-
-
-
-
 /* style accueil */
-
 .accueil_horizontal_wrap {
   display: flex;
   flex-direction: column;
@@ -434,7 +350,6 @@ object-fit: fill;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
 #accueil_body {
   padding: 0;
   margin: 0;
@@ -451,7 +366,6 @@ object-fit: fill;
     background-color: #D9D48F ;
   }
 }
-
 .accueil_scroll_bar {
   height: 3px;
   width: 0%;
@@ -471,8 +385,6 @@ object-fit: fill;
     width: 100%;
   }
 }
-
-
 .accueil_horizontal_wrap h1 {
   position: fixed;
   display: block;
@@ -499,48 +411,35 @@ object-fit: fill;
   transform: translateX(-260vw); 
   }
 }
-
 .accueil_link {
   text-decoration: none;
   color: inherit;
 }
-
 #accueil_leaf_1 {
   position: fixed;
   top: 20vh;
   right: 30vh;
 }
-
 #accueil_leaf_2 {
   position: fixed;
   top: 50vh;
   right: 80vh;
 }
-
 #accueil_leaf_3 {
   position: fixed;
   top: 50vh;
   right: 30vh;
 }
-
 /* Fin style accueil */
-
-
-
 /* footer */
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 footer {
 height: 100vh;
 }
-
 #footer {
 padding-left: 8vw;
 padding-right: 8vw;
 }
-
-
 #footer_contain_btn {
 display: flex;
 justify-content: flex-end;
@@ -549,20 +448,17 @@ height: 20vh;
 padding-left: 8vw;
 padding-right: 8vw;
 }
-
 #footer_btn {
 all: initial;   
 width: 10vw;
 height: 10vh;
 transition: all ease-out 2s;
 }
-
 #footer_btn_icon {
 width: 100%;
 height: 100%;
 cursor: pointer;
 }
-
 #footer_contain_adress {
 display: flex;
 flex-direction: column;
@@ -570,7 +466,6 @@ justify-content: flex-end;
 align-items: flex-end;
 height: 15vh;
 }
-
 #footer_contain_adress h5, #footer_contain_adress h6 {
 width: 20%;
 text-align: left;
@@ -578,21 +473,18 @@ line-height: 1.5;
 margin-top: 0px;
 margin-bottom: 0px;
 }
-
 #footer_contain_adress h5 {
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
 color: black;
 font-size: 2vh;
 }
-
 #footer_contain_adress h6 {
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
 color: black;
 font-size: 1.5vh;
 }
-
 #footer_contain_link {
 display: flex;
 flex-direction: column;
@@ -600,7 +492,6 @@ justify-content: space-evenly;
 align-items: flex-end;
 height: 15vh;
 }
-
 #footer_contain_link a {
 /* display: flex; */
 width: 20%;
@@ -611,13 +502,11 @@ font-weight: 700;
 color: black;
 font-size: 2vh;
 }
-
 #footer_contain_career {
 display: flex;
 justify-content: flex-end;
 height: 15vh;
 }
-
 #footer_contain_career a {
 display: flex;
 width: 20%;
@@ -628,25 +517,20 @@ font-weight: 700;
 color: black;
 font-size: 2vh;
 }
-
-
 #footer_contain_tagline {
 height: 5vh;
 display: flex;
 }
-
 #footer_contain_tagline h6 {
 font-family: 'Roboto', sans-serif;
 font-weight: 400;
 color: black;
 font-size: 2vh;
 }
-
 #footer_link_contact {
 height: 20vh;
 text-decoration: none;
 }
-
 #footer_contain_contact {
 display: flex;
 width: 100%;
@@ -656,7 +540,6 @@ background: url(media/footer_champignon.PNG) no-repeat 100% 100%;
 background-size: 10vh;
 transition: background-size ease-out 1s;
 }
-
 #footer_title {
 font-family: Arial, Helvetica, sans-serif;
 font-weight: lighter;
@@ -666,10 +549,7 @@ text-transform: uppercase;
 margin-bottom: 0;
 margin-top: 2%;
 }
-
-
 /* animation footer bottom */
-
 #footer_link_contact::after {
 content: ' ';
 display: block;
@@ -678,11 +558,9 @@ height: 4px;
 background-color: black;
 transition: width .3s;
 }
-
 #footer_link_contact:hover::after {
 width: 100%;
 }
-
 #footer_contain_contact:hover {
 transition-delay: 0.3s;
 transition: 2s;
@@ -690,27 +568,16 @@ background-size: 16vh;
 background-position-x: 100%;
 background-position-y: 100%;
 }
-
 /* animation footer top */
-
 #footer_btn:hover {
 transform: rotate(360deg);
 transition: transform linear 3s;
 }
-
 /* fin style footer */
-
-
-
-
-
-
 /* _______________________________________________________________ potager urbain _____________________________________________________________________ */
 #urban_background {
   background: linear-gradient(#F2E9C2 80%, white);
 }
-
-
 #urban_page_title {
   padding-top: 5%;
   text-align: center;
@@ -718,33 +585,26 @@ transition: transform linear 3s;
   font-family: 'Libre Baskerville', serif;  
   color: #365938;
 }
-
 #urban_titre_petit {
   font-size: 50%;
 }
-
 #how_to_banner {
   display: flex;
   justify-content: center;
   padding: 5%;
 }
-
 #how_to_img {
   width: 50%;
 }
-
 #how_to_img img {
   width: 100%;
   border-radius: 50px;
   opacity: 0.8;
 }
-
 .bloc {
   display: flex;
   justify-content: center;
 }
-
-
 .bloc_step h2 {
   text-align: center;
   font-size: 5vh;
@@ -753,27 +613,21 @@ transition: transform linear 3s;
   opacity: 0.8;
   padding: 5%;
 }
-
-
 #title_step_5 {
   font-family: 'Dancing Script', cursive;
   padding-bottom: 1%;
 }
-
 .core_step {
   text-align: justify;
 }
-
 .core_step a {
   text-decoration: none;
   color: black;
   font-weight: bold;
 }
-
 .core_step a:hover {
   color: green;
 }
-
 .step_img_text {
   display: flex;
   justify-content: center;
@@ -781,37 +635,30 @@ transition: transform linear 3s;
   width: 80%;
   margin: auto;
 }
-
 #step2_img_text {
   flex-direction: row-reverse;
 }
-
 #step4_img_text {
   flex-direction: row-reverse;
 }
-
 #step5_img_text {
   flex-direction: column-reverse;
   align-items: center;
 }
-
 #step5_img_text img {
   width: 40%;
   margin-top: 5%;
 }
-
 #step5_img_text h3 {
   width: 100%;
   font-family: 'Dancing Script', cursive;
 }
-
 .step_img_text img {
   width: 30%;
   margin-right: 5%;
   margin-left: 5%;
   border-radius: 50px;
 }
-
 .step_img_text h3 {
   width: 50%;
   font-family: 'Whitney Medium';
@@ -819,133 +666,8 @@ transition: transform linear 3s;
   color:#365938;
   opacity: 0.8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* _____________________________________________ fin potager urbain ___________________________________________________________________________________ */
-
-
-
-
-
-
-
 /* _______________________________________________________________ jardins partagés _____________________________________________________________________ */
-
-
 #background_jardins_partagés{
   background-color: #1d331f;
   background-image: url(media/3-Rubber-BG.png);
@@ -978,18 +700,12 @@ transition: transform linear 3s;
 #titres h2{
   font-size: 5vh;
 }
-
 /*_____________________ fin des titres __________________ */
-
-
 /* _________________ scroll image à droite__________ */
-
-
 .jardin_partages_textes_et_photos_img_droite h2, .jardin_partages_textes_et_photos_img_gauche h2{
   color: #62B16F;
   font-size: 4vh;
 }
-
 .jardin_partages_textes_et_photos_img_droite{
   display: flex;
   width: 80%;
@@ -1008,7 +724,6 @@ transition: transform linear 3s;
   padding-right: 6vw;
   font-family: 'Caveat Brush', cursive;
 }
-
 .jardin_partages_textes_et_lien_img_droite p{
   font-family: 'Caveat Brush', cursive;
   font-size: 3vh;
@@ -1031,9 +746,7 @@ transition: transform linear 3s;
   background-color: rgb(113, 148, 113);
   border: 1px solid transparent;
 }
-
 /* ____________ ligne séparation ________________ */
-
 .jardin_patages_ligne_separation{
   display: inline-block;
   width: 50%;
@@ -1043,11 +756,7 @@ transition: transform linear 3s;
   background-color: rgb(141, 170, 146);
   border: 0;
 }
-
-
-
 /* _____________scroll image à gauche_____________ */
-
 .jardin_partages_textes_et_photos_img_gauche{
   display: flex;
   width: 80%;
@@ -1064,7 +773,6 @@ transition: transform linear 3s;
   justify-content: space-around;
   padding-left: 6vw;
 }
-
 .jardin_partages_textes_et_lien_img_gauche p{
   font-family: 'Caveat Brush', cursive;
   font-size: 3vh;
@@ -1087,207 +795,20 @@ transition: transform linear 3s;
   background-color: rgb(113, 148, 113);
   border: 1px solid transparent;
 }
-
-
 #cinquieme_scroll_jardin_partages{
   margin-bottom: 10vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* _____________________________________________ fin jardins partagés ___________________________________________________________________________________ */
-
-
 /* _______________________________________________________________  plantes méditéranéennes  _____________________________________________________________________ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #locale_background_2 {
   background: linear-gradient( #badbbf, white);
 }
-
-
 #locale_accueil {
   object-fit: cover;
   width: 100%;
   height: 100vh;
   z-index: 6;
 }
-
 #locale_contain_title {
   width: 100%;
   position: absolute;
@@ -1297,7 +818,6 @@ transition: transform linear 3s;
   justify-content: center;
   align-items: center;
 }
-
 #locale_surtitle {
   color: black;
   font-family: 'Amatic SC', cursive;
@@ -1308,7 +828,6 @@ transition: transform linear 3s;
   flex-direction: column-reverse;
   align-items: center;
 }
-
 #locale_surtitle::after {
 content: "";
 margin-top: 5%;
@@ -1317,8 +836,6 @@ width: 40px;
 height: 5px;
 background: url(media/round-white.png) 0 0 repeat;
 }
-
-
 #locale_title {
   color: black;
   font-family: 'Amatic SC', cursive;
@@ -1326,26 +843,21 @@ background: url(media/round-white.png) 0 0 repeat;
   font-weight: lighter;
   text-align: center;
 }
-
 #step2_locale_img_text {
   flex-direction: row-reverse;
 }
-
 #step1_locale_img_text img {
   border: brown solid 3px;
   border-radius: 2px;
 }
-
 #step2_locale_img_text img {
   border: brown solid 3px;
   border-radius: 2px;
 }
-
 #step3_locale_img_text img {
   border: brown solid 3px;
   border-radius: 2px;
 }
-
 #locale_bouton_contain {
   width: 80%;
   margin: auto;
@@ -1354,7 +866,6 @@ background: url(media/round-white.png) 0 0 repeat;
   justify-content: center;
   align-items: center;
 }
-
 #locale_bouton_contain a {
   display: flex;
   align-items: center;
@@ -1363,195 +874,17 @@ background: url(media/round-white.png) 0 0 repeat;
   text-decoration: none;
   color: black;
 }
-
 #locale_bouton_contain img {
   display: flex;
   width: 80%;
 }
-
 #locale_bouton_contain h2 {
   text-align: center;
   font-family: 'Amatic SC', cursive;
   font-size: 3vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* _____________________________________________ fin plantes méditéranéennes ___________________________________________________________________________________ */
-
-
-
-
 /* _____________________________________________ veget. urbaine ___________________________________________________________________________________ */
-
-
-
-
 #ville_vegetale{
   background-image: url(media/ville_vegetale2.jpg);
   background-attachment: fixed;
@@ -1561,9 +894,7 @@ background: url(media/round-white.png) 0 0 repeat;
   width: 100%;
   display: flex;
   align-items: center;
-  
 }
-
 #ville_vegetale h1{
 font-size: 18vh;
 text-align: center;
@@ -1572,14 +903,6 @@ text-shadow: 5px 5px 5px black;
 padding: 5%;
 font-family: 'Libre Baskerville', serif;
 }
-
-
-
-
-
-
-
-
 #veget_urbain_pourquoi{
   height: 100%;
   width: 100%;
@@ -1590,17 +913,14 @@ font-family: 'Libre Baskerville', serif;
   display: flex;
   justify-content: center;
 }
-
 #veget_urbain_pourquoi_articles{
   display: flex;
   justify-content: center;
   width: 80%;
 }
-
 #veget_urbain_pourquoi_gauche{
   width: 50%;
   padding: 2vh;
-
 }
 #veget_urbain_pourquoi_gauche h1{
   font-size: 5vh;
@@ -1621,20 +941,13 @@ font-family: 'Libre Baskerville', serif;
   margin: 3vh;
   color: white;
 }
-
-
-
-
 #veget_urbain_pourquoi_droite{
   display: flex;
   flex-direction: column;
   align-items: center;
     width: 50%;
     padding: 3vh;
-  
   }
-  
-
 #veget_urbain_pourquoi_droite img{
   text-align: center;
   height: auto;
@@ -1642,7 +955,6 @@ font-family: 'Libre Baskerville', serif;
   margin-top: 3vh;
   margin-bottom: 3vh;
 }
-
 #veget_urbain_pourquoi_droite h3{
   font-size: 3vh;
   color: #62b16f;
@@ -1650,7 +962,6 @@ font-family: 'Libre Baskerville', serif;
   text-shadow: 1px 2px 2px rgb(0, 0, 0);
   font-family: 'Libre Baskerville', serif;
 }
-
 #veget_urbain_pourquoi_droite p{
   font-size: 1.8vh;
   color: #62b16f;
@@ -1659,11 +970,7 @@ font-family: 'Libre Baskerville', serif;
   width: 70%;
   text-align: justify;
 }
-
-
 /* _______________projets___________________________________________ */
-
-
 #veget_urbaine_projets{
   background-image: url(media/projet-ville-vegetale.jpg);
   background-attachment: fixed;
@@ -1675,7 +982,6 @@ font-family: 'Libre Baskerville', serif;
   align-items: center;
   justify-content: center;
 }
-
 #veget_urbaine_projets h1{
 font-size: 15vh;
 color: #a5c7ab;
@@ -1686,9 +992,7 @@ font-family: 'Libre Baskerville', serif;
 #veget_urbaine_projets a{
   text-decoration: none;
 }
-
 /* __________________ vegetalisation urbaine stats ________________________________ */
-
 #veget_urbaine_chiffres{
   height: 100%;
   width: 100vw;
@@ -1699,7 +1003,6 @@ font-family: 'Libre Baskerville', serif;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 #veget_urbaine_chiffres h1{
   font-size: 6vh;
@@ -1722,7 +1025,6 @@ font-family: 'Libre Baskerville', serif;
   width: 50%;
   height: auto;
 }
-
 #veget_urbaine_chiffres p{
   font-size: 1.8vh;
   text-align: justify;
@@ -1732,154 +1034,4 @@ font-family: 'Libre Baskerville', serif;
 font-family: 'Libre Baskerville', serif;
 margin-bottom: 5vh;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* _____________________________________________ fin veget. urbaine ___________________________________________________________________________________ */
