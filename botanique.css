@@ -27,6 +27,7 @@ html, body {
 
 
 #mySidenav a {
+z-index: 1;
 position: fixed;
 transition: 0.3s;
 padding: 15px;
@@ -770,7 +771,7 @@ transition: transform linear 3s;
 .step_img_text {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 80%;
   margin: auto;
 }
@@ -789,7 +790,7 @@ transition: transform linear 3s;
 }
 
 #step5_img_text img {
-  width: 60%;
+  width: 40%;
   margin-top: 5%;
 }
 
@@ -799,7 +800,7 @@ transition: transform linear 3s;
 }
 
 .step_img_text img {
-  width: 40%;
+  width: 30%;
   margin-right: 5%;
   margin-left: 5%;
   border-radius: 50px;
@@ -813,9 +814,7 @@ transition: transform linear 3s;
   opacity: 0.8;
 }
 
-.surligné_vert {
-  color: yellowgreen;
-}
+
 
 
 
@@ -1266,23 +1265,104 @@ transition: transform linear 3s;
 
 
 
+#locale_background_2 {
+  background: linear-gradient( #badbbf, white);
+}
 
 
+#locale_accueil {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  z-index: 6;
+}
+
+#locale_contain_title {
+  width: 100%;
+  position: absolute;
+  top: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#locale_surtitle {
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 10vh;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+#locale_surtitle::after {
+content: "";
+margin-top: 5%;
+position: absolute;
+width: 40px;
+height: 5px;
+background: url(media/round-white.png) 0 0 repeat;
+}
 
 
+#locale_title {
+  color: black;
+  font-family: 'Amatic SC', cursive;
+  font-size: 10vh;
+  font-weight: lighter;
+  text-align: center;
+}
 
+#step2_locale_img_text {
+  flex-direction: row-reverse;
+}
 
+#step1_locale_img_text img {
+  border: brown solid 3px;
+  border-radius: 2px;
+}
 
+#step2_locale_img_text img {
+  border: brown solid 3px;
+  border-radius: 2px;
+}
 
+#step3_locale_img_text img {
+  border: brown solid 3px;
+  border-radius: 2px;
+}
 
+#locale_bouton_contain {
+  width: 80%;
+  margin: auto;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+#locale_bouton_contain a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  text-decoration: none;
+  color: black;
+}
 
+#locale_bouton_contain img {
+  display: flex;
+  width: 80%;
+}
 
-
-
-
-
-
+#locale_bouton_contain h2 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3vh;
+}
 
 
 
